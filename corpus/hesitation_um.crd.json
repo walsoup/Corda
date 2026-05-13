@@ -1,0 +1,19 @@
+{
+  "corda_version": "2.0.0",
+  "duration_ticks": 4800,
+  "sample_rate_hz": 44100,
+  "ppq_resolution": 9600,
+  "bpm": 120.0,
+  "mode": "SPEECH",
+  "peos": [
+    {
+      "peo_id": "p_um",
+      "articulation_class": "HESITATION",
+      "tick_onset": 0,
+      "tick_offset": 4800,
+      "hesitation_type": "FILLER_VOICED",
+      "intensity": 0.6
+    }
+  ],
+  "vectors": {}
+}

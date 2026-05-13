@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+node_modules/
+.next/
+out/
+build/
+dist/
+*.wav
+*.onnx
+*.pth
+.DS_Store

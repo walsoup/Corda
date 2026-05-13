@@ -1,0 +1,20 @@
+{
+  "corda_version": "2.0.0",
+  "duration_ticks": 4800,
+  "sample_rate_hz": 44100,
+  "ppq_resolution": 9600,
+  "bpm": 120.0,
+  "mode": "SPEECH",
+  "peos": [
+    {
+      "peo_id": "p_s",
+      "articulation_class": "FRICATIVE",
+      "tick_onset": 0,
+      "tick_offset": 4800,
+      "noise_floor_hz": 4000,
+      "noise_ceiling_hz": 8000,
+      "intensity": 0.8
+    }
+  ],
+  "vectors": {}
+}

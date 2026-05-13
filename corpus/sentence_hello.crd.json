@@ -1,0 +1,41 @@
+{
+  "corda_version": "2.0.0",
+  "duration_ticks": 9600,
+  "sample_rate_hz": 44100,
+  "ppq_resolution": 9600,
+  "bpm": 120.0,
+  "mode": "SPEECH",
+  "peos": [
+    {
+      "peo_id": "p_h",
+      "articulation_class": "FRICATIVE",
+      "tick_onset": 0,
+      "tick_offset": 1000,
+      "noise_floor_hz": 1000,
+      "noise_ceiling_hz": 3000,
+      "intensity": 0.5
+    },
+    {
+      "peo_id": "p_e",
+      "articulation_class": "VOICED",
+      "tick_onset": 1000,
+      "tick_offset": 3000,
+      "intensity": 0.8
+    },
+    {
+      "peo_id": "p_l",
+      "articulation_class": "APPROXIMANT",
+      "tick_onset": 3000,
+      "tick_offset": 5000,
+      "intensity": 0.7
+    },
+    {
+      "peo_id": "p_o",
+      "articulation_class": "VOICED",
+      "tick_onset": 5000,
+      "tick_offset": 9600,
+      "intensity": 0.8
+    }
+  ],
+  "vectors": {}
+}

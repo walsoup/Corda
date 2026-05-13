@@ -1,0 +1,35 @@
+{
+  "corda_version": "2.0.0",
+  "duration_ticks": 4800,
+  "sample_rate_hz": 44100,
+  "ppq_resolution": 9600,
+  "bpm": 120.0,
+  "mode": "SPEECH",
+  "peos": [
+    {
+      "peo_id": "peo_01",
+      "articulation_class": "VOICED",
+      "tick_onset": 0,
+      "tick_offset": 4800,
+      "intensity": 0.8
+    }
+  ],
+  "vectors": {
+    "layer2_cvn_curves": [
+      {
+        "curve_id": "c1",
+        "peo_ref": "peo_01",
+        "anchor_hz": 120.0,
+        "control_points": [
+          {"tick": 0, "hz": 120.0, "tension": 0.5},
+          {"tick": 4800, "hz": 120.0, "tension": 0.5}
+        ]
+      }
+    ],
+    "layer4_formants": [
+      {"tick": 0, "f1_hz": 700, "f2_hz": 1100, "f3_hz": 2400, "f4_hz": 3200, "f5_hz": 4000}
+    ],
+    "layer4_glottal_curve": [0.5],
+    "layer4_aspiration_curve": [0.1]
+  }
+}

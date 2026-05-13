@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/assets/main/logo.png" width="120" alt="Corda Logo" />
+  <img src="https://raw.githubusercontent.com/walsoup/Corda/refs/heads/main/assets/main/icon.png" width="120" alt="Corda Logo" />
   <h1>Corda Protocol</h1>
   <p><strong>The Vocal-Tract-Centric Audio Synthesis Engine & IDE</strong></p>
   <p>
